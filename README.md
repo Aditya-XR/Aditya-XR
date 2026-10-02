@@ -13,7 +13,7 @@
 I'm a final-year Computer Science student at **BIT Mesra** (graduating **May 2027**), looking for **SDE-1 / new-grad** software engineering roles.
 I like the backend side of real-time products — sync protocols, storage, rate limiting, and the bugs that hide in shared state — and I fix those bugs in other people's code too: my patches are merged in **Microsoft's Agent Framework** and **LibreDB Studio**.
 
-- 🔀 **<!-- MERGED:START -->5 merged pull requests<!-- MERGED:END -->** in open source, two of them in [microsoft/agent-framework](https://github.com/microsoft/agent-framework) — with more in review at pytest, Swift, Mermaid and Zulip
+- 🔀 **<!-- MERGED:START -->5 merged pull requests<!-- MERGED:END -->** in open source, including fixes in [microsoft/agent-framework](https://github.com/microsoft/agent-framework) — with more in review at pytest, Swift, Mermaid and Zulip
 - 🚀 **[CollabEdit](https://github.com/Aditya-XR/collaborative-editor)** — a live Google Docs–style editor on a CRDT sync server I wrote in Python, with 250+ automated tests
 - 🏆 **70th of 8,500+ teams** in the Amazon ML Challenge 2026 · 🥇 **1st place** at Hatch From Scratch (AR indoor navigation)
 - 🧮 **600+ DSA problems** solved in C++ · LeetCode contest rating peaked at **1605**
@@ -21,6 +21,8 @@ I like the backend side of real-time products — sync protocols, storage, rate 
 ## 🚀 Featured project — CollabEdit
 
 Real-time collaborative documents in the spirit of Google Docs — live cursors, offline editing, version history, full-text search and link sharing — built from scratch on FastAPI, Yjs/pycrdt, PostgreSQL and Redis.
+
+<a href="https://collaborative-editor-flax.vercel.app"><img src="assets/collabedit.png" alt="CollabEdit: two people editing the same document. Rahul's caret and name appear live in Priya's window, with both avatars and All changes synced in the header." width="100%"></a>
 
 **[▶ Try it live](https://collaborative-editor-flax.vercel.app)** · [Source](https://github.com/Aditya-XR/collaborative-editor) · [Design decisions (ADRs)](https://github.com/Aditya-XR/collaborative-editor/tree/main/docs/adr) · [Roadmap](https://github.com/Aditya-XR/collaborative-editor/blob/main/docs/PLAN.md)
 
@@ -66,9 +68,9 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 
 | Project | What it is | Built with |
 | :-- | :-- | :-- |
-| [**WebChat**](https://github.com/Aditya-XR/webChat) | Real-time one-to-one chat with online presence, unread counts, image messages and Google sign-in | React · Express · Socket.IO · MongoDB |
-| [**Rehabilitation**](https://github.com/Aditya-XR/Rehabilitation) | Booking platform for a rehabilitation centre: session slots, bookings and an admin dashboard | React · Express · MongoDB |
-| [**Primetrade-Assignment**](https://github.com/Aditya-XR/Primetrade-Assignment) | REST API with JWT auth, role-based access control and a Postman collection | Node.js · Express · MongoDB |
+| [**WebChat**](https://github.com/Aditya-XR/webChat) | Real-time one-to-one chat with contact invites, blocking, read receipts and presence. Messages are persisted before the Socket.IO emit, so history and unread counts survive disconnects | React · Express · Socket.IO · MongoDB |
+| [**Rehabilitation**](https://github.com/Aditya-XR/Rehabilitation) | Booking system for a rehab centre. A MongoDB transaction claims each slot with one conditional update — of 8 simultaneous requests for a slot, exactly one wins | React 19 · Express 5 · MongoDB |
+| [**Primetrade-Assignment**](https://github.com/Aditya-XR/Primetrade-Assignment) | Task-management REST API with JWT auth and role-based access, documented with Postman | Node.js · Express · MongoDB |
 
 ## 🧰 Tech
 
