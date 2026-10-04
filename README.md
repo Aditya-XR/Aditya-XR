@@ -52,7 +52,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.1k</sub> | [Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
 | [anishmehta24/OSS-Contributor-engine](https://github.com/anishmehta24/OSS-Contributor-engine) | [Preserve CRLF line endings when applying edits](https://github.com/anishmehta24/OSS-Contributor-engine/pull/3) |
 
-**🔄 In review** — 5 open
+**🔄 In review** — 6 open
 
 | Project | Pull requests |
 | :-- | :-- |
@@ -61,6 +61,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26k</sub> | [Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.6k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 13.9k</sub> | [Fix tool argument validation for datetime, set and tuple parameters](https://github.com/microsoft/agent-framework/pull/8824) |
+| [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.1k</sub> | [A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
