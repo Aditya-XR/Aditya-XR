@@ -14,7 +14,7 @@
 I'm a final-year Computer Science student at **BIT Mesra** (graduating **May 2027**), looking for **SDE-1 / new-grad** software engineering roles.
 I like the backend side of real-time products — sync protocols, storage, rate limiting, and the bugs that hide in shared state — and I fix those bugs in other people's code too: my patches are merged in **Microsoft's Agent Framework** and **LibreDB Studio**.
 
-- 🔀 **<!-- MERGED:START -->7 merged pull requests<!-- MERGED:END -->** in open source, including fixes in [microsoft/agent-framework](https://github.com/microsoft/agent-framework) — with more in review at pytest, Swift, Mermaid and Zulip
+- 🔀 **<!-- MERGED:START -->8 merged pull requests<!-- MERGED:END -->** in open source, including fixes in [microsoft/agent-framework](https://github.com/microsoft/agent-framework) — with more in review at pytest, Swift, Mermaid and Zulip
 - 🚀 **[CollabEdit](https://github.com/Aditya-XR/collaborative-editor)** — a live Google Docs–style editor on a CRDT sync server I wrote in Python, with 250+ automated tests
 - 🏆 **70th of 8,500+ teams** in the Amazon ML Challenge 2026 · 🥇 **1st place** at Hatch From Scratch (AR indoor navigation)
 - 🧮 **600+ DSA problems** solved in C++ · LeetCode contest rating peaked at **1605**
@@ -43,16 +43,16 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 - **[libredb/libredb-studio #1121](https://github.com/libredb/libredb-studio/pull/1121)** — a single `SELECT`, `AUTH` or `HELLO` could silently move or re-authenticate the Redis connection shared by every later request; blocked at the provider boundary after verifying each command against live Redis 8.
 
 <!-- OSS:START -->
-**✅ Merged** — 7 pull requests in 4 projects
+**✅ Merged** — 8 pull requests in 4 projects
 
 | Project | Pull requests |
 | :-- | :-- |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26k</sub> | [Fix API URL in Home Assistant documentation](https://github.com/zulip/zulip/pull/40197) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 13.9k</sub> | [Fix middleware type detection with postponed annotations](https://github.com/microsoft/agent-framework/pull/8648)<br>[Fix type compatibility for Any source types](https://github.com/microsoft/agent-framework/pull/8660) |
-| [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.1k</sub> | [Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
+| [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.1k</sub> | [A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308)<br>[Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
 | [anishmehta24/OSS-Contributor-engine](https://github.com/anishmehta24/OSS-Contributor-engine) | [Preserve CRLF line endings when applying edits](https://github.com/anishmehta24/OSS-Contributor-engine/pull/3) |
 
-**🔄 In review** — 6 open
+**🔄 In review** — 7 open
 
 | Project | Pull requests |
 | :-- | :-- |
@@ -60,8 +60,8 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [swiftlang/swift](https://github.com/swiftlang/swift)<br><sub>★ 70.5k</sub> | [Document source.request.relatedidents](https://github.com/swiftlang/swift/pull/92586) |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26k</sub> | [Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.6k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 13.9k</sub> | [Fix tool argument validation for datetime, set and tuple parameters](https://github.com/microsoft/agent-framework/pull/8824) |
-| [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.1k</sub> | [A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308) |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 13.9k</sub> | [Fix persistent PowerShell sessions dropping table-formatted output](https://github.com/microsoft/agent-framework/pull/9043)<br>[Fix tool argument validation for datetime, set and tuple parameters](https://github.com/microsoft/agent-framework/pull/8824) |
+| [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.1k</sub> | [Write a zoned Oracle timestamp that arrived over HTTP as its UTC instant](https://github.com/libredb/libredb-studio/pull/1500) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
