@@ -66,14 +66,6 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
 
-## 🧩 More projects
-
-| Project | What it is | Built with |
-| :-- | :-- | :-- |
-| [**WebChat**](https://github.com/Aditya-XR/webChat) | Real-time one-to-one chat with contact invites, blocking, read receipts and presence. Messages are persisted before the Socket.IO emit, so history and unread counts survive disconnects | React · Express · Socket.IO · MongoDB |
-| [**Rehabilitation**](https://github.com/Aditya-XR/Rehabilitation) | Booking system for a rehab centre. A MongoDB transaction claims each slot with one conditional update — of 8 simultaneous requests for a slot, exactly one wins | React 19 · Express 5 · MongoDB |
-| [**Primetrade-Assignment**](https://github.com/Aditya-XR/Primetrade-Assignment) | Task-management REST API with JWT auth and role-based access, documented with Postman | Node.js · Express · MongoDB |
-
 ## 🧰 Tech
 
 <p>
