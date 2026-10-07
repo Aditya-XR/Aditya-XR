@@ -49,10 +49,10 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | :-- | :-- |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26k</sub> | [Fix API URL in Home Assistant documentation](https://github.com/zulip/zulip/pull/40197) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 14k</sub> | [Fix persistent PowerShell sessions dropping table-formatted output](https://github.com/microsoft/agent-framework/pull/9043)<br>[Fix middleware type detection with postponed annotations](https://github.com/microsoft/agent-framework/pull/8648)<br>[Fix type compatibility for Any source types](https://github.com/microsoft/agent-framework/pull/8660) |
-| [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.1k</sub> | [Write a zoned Oracle timestamp that arrived over HTTP as its UTC instant](https://github.com/libredb/libredb-studio/pull/1500)<br>[A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308)<br>[Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
+| [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.2k</sub> | [Write a zoned Oracle timestamp that arrived over HTTP as its UTC instant](https://github.com/libredb/libredb-studio/pull/1500)<br>[A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308)<br>[Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
 | [anishmehta24/OSS-Contributor-engine](https://github.com/anishmehta24/OSS-Contributor-engine) | [Preserve CRLF line endings when applying edits](https://github.com/anishmehta24/OSS-Contributor-engine/pull/3) |
 
-**🔄 In review** — 6 open
+**🔄 In review** — 7 open
 
 | Project | Pull requests |
 | :-- | :-- |
@@ -60,7 +60,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [swiftlang/swift](https://github.com/swiftlang/swift)<br><sub>★ 70.5k</sub> | [Document source.request.relatedidents](https://github.com/swiftlang/swift/pull/92586) |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26k</sub> | [Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.6k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 14k</sub> | [Read AZURE_OPENAI_API_VERSION before applying the Azure client default](https://github.com/microsoft/agent-framework/pull/9098)<br>[Fix tool argument validation for datetime, set and tuple parameters](https://github.com/microsoft/agent-framework/pull/8824) |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 14k</sub> | [Reset Magentic participant sessions on replan](https://github.com/microsoft/agent-framework/pull/9131)<br>[Read AZURE_OPENAI_API_VERSION before applying the Azure client default](https://github.com/microsoft/agent-framework/pull/9098)<br>[Fix tool argument validation for datetime, set and tuple parameters](https://github.com/microsoft/agent-framework/pull/8824) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
