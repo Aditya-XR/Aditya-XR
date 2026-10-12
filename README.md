@@ -52,12 +52,13 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.2k</sub> | [Write a zoned Oracle timestamp that arrived over HTTP as its UTC instant](https://github.com/libredb/libredb-studio/pull/1500)<br>[A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308)<br>[Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
 | [anishmehta24/OSS-Contributor-engine](https://github.com/anishmehta24/OSS-Contributor-engine) | [Preserve CRLF line endings when applying edits](https://github.com/anishmehta24/OSS-Contributor-engine/pull/3) |
 
-**🔄 In review** — 8 open
+**🔄 In review** — 9 open
 
 | Project | Pull requests |
 | :-- | :-- |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br><sub>★ 90.6k</sub> | [Allow milestones to be declared without a duration](https://github.com/mermaid-js/mermaid/pull/8291) |
 | [swiftlang/swift](https://github.com/swiftlang/swift)<br><sub>★ 70.5k</sub> | [Document source.request.relatedidents](https://github.com/swiftlang/swift/pull/92586) |
+| [apache/airflow](https://github.com/apache/airflow)<br><sub>★ 47.1k</sub> | [Stop treating .jar, .whl and other zip-format files as Dag files](https://github.com/apache/airflow/pull/74573) |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26k</sub> | [Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.6k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 14.1k</sub> | [Reset Magentic participant sessions on replan](https://github.com/microsoft/agent-framework/pull/9131)<br>[Read AZURE_OPENAI_API_VERSION before applying the Azure client default](https://github.com/microsoft/agent-framework/pull/9098)<br>[Fix tool argument validation for datetime, set and tuple parameters](https://github.com/microsoft/agent-framework/pull/8824) |
