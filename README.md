@@ -56,7 +56,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 
 | Project | Pull requests |
 | :-- | :-- |
-| [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br><sub>★ 91k</sub> | [Allow milestones to be declared without a duration](https://github.com/mermaid-js/mermaid/pull/8291) |
+| [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br><sub>★ 91.1k</sub> | [Allow milestones to be declared without a duration](https://github.com/mermaid-js/mermaid/pull/8291) |
 | [swiftlang/swift](https://github.com/swiftlang/swift)<br><sub>★ 70.5k</sub> | [Document source.request.relatedidents](https://github.com/swiftlang/swift/pull/92586) |
 | [apache/airflow](https://github.com/apache/airflow)<br><sub>★ 47.4k</sub> | [Fix Dag import error for repeated task_group calls in a TaskGroup](https://github.com/apache/airflow/pull/76085) |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26.2k</sub> | [Rename ROOT_DOMAIN_URI to ROOT_DOMAIN_URL](https://github.com/zulip/zulip/pull/40517)<br>[Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
