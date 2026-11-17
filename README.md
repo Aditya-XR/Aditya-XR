@@ -63,7 +63,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26.2k</sub> | [Refactor URI to URL in screenshot tools and web comments](https://github.com/zulip/zulip/pull/40690)<br>[Rename ROOT_DOMAIN_URI to ROOT_DOMAIN_URL](https://github.com/zulip/zulip/pull/40517)<br>[Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 14.7k</sub> | [Send empty text for GitHubCopilotAgent tool results without text](https://github.com/microsoft/agent-framework/pull/10272)<br>[Report repeated native exit codes in persistent PowerShell sessions](https://github.com/microsoft/agent-framework/pull/9658) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.7k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
-| [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 409</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
+| [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 410</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
