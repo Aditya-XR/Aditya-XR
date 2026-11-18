@@ -14,7 +14,7 @@
 I'm a final-year Computer Science student at **BIT Mesra** (graduating **May 2027**), looking for **SDE-1 / new-grad** software engineering roles.
 I like the backend side of real-time products — sync protocols, storage, rate limiting, and the bugs that hide in shared state — and I fix those bugs in other people's code too: my patches are merged in **Microsoft's Agent Framework** and **LibreDB Studio**.
 
-- 🔀 **<!-- MERGED:START -->23 merged pull requests<!-- MERGED:END -->** in open source, including fixes in [microsoft/agent-framework](https://github.com/microsoft/agent-framework) — with more in review at pytest, Swift, Mermaid and Zulip
+- 🔀 **<!-- MERGED:START -->15 merged pull requests<!-- MERGED:END -->** in open source, including fixes in [microsoft/agent-framework](https://github.com/microsoft/agent-framework) — with more in review at pytest, Swift, Mermaid and Zulip
 - 🚀 **[CollabEdit](https://github.com/Aditya-XR/collaborative-editor)** — a live Google Docs–style editor on a CRDT sync server I wrote in Python, with 250+ automated tests
 - 🏆 **70th of 8,500+ teams** in the Amazon ML Challenge 2026 · 🥇 **1st place** at Hatch From Scratch (AR indoor navigation)
 - 🧮 **600+ DSA problems** solved in C++ · LeetCode contest rating peaked at **1605**
@@ -43,17 +43,16 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 - **[libredb/libredb-studio #1121](https://github.com/libredb/libredb-studio/pull/1121)** — a single `SELECT`, `AUTH` or `HELLO` could silently move or re-authenticate the Redis connection shared by every later request; blocked at the provider boundary after verifying each command against live Redis 8.
 
 <!-- OSS:START -->
-**✅ Merged** — 23 pull requests in 5 projects
+**✅ Merged** — 15 pull requests in 4 projects
 
 | Project | Pull requests |
 | :-- | :-- |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26.2k</sub> | [Fix API URL in Home Assistant documentation](https://github.com/zulip/zulip/pull/40197) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 14.7k</sub> | [Set the assistant role on streamed Gemini updates](https://github.com/microsoft/agent-framework/pull/9491)<br>[Treat a single string passed to Message as one text content](https://github.com/microsoft/agent-framework/pull/9327)<br>[Fix tool argument validation for datetime, set and tuple parameters](https://github.com/microsoft/agent-framework/pull/8824)<br>[Read AZURE_OPENAI_API_VERSION before applying the Azure client default](https://github.com/microsoft/agent-framework/pull/9098)<br>[Reset Magentic participant sessions on replan](https://github.com/microsoft/agent-framework/pull/9131)<br>[Fix persistent PowerShell sessions dropping table-formatted output](https://github.com/microsoft/agent-framework/pull/9043)<br>[Fix middleware type detection with postponed annotations](https://github.com/microsoft/agent-framework/pull/8648)<br>[Fix type compatibility for Any source types](https://github.com/microsoft/agent-framework/pull/8660) |
 | [repowise-dev/repowise](https://github.com/repowise-dev/repowise)<br><sub>★ 8.2k</sub> | [Pin the afterFileEdit capture hook to repowise-augment (#5364)](https://github.com/repowise-dev/repowise/pull/5548) |
 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.3k</sub> | [Recognise count-less FETCH, FETCH ... WITH TIES, and preceding OFFSET in the query limiter](https://github.com/libredb/libredb-studio/pull/1995)<br>[Bind an Oracle DATE and TIMESTAMP edit through TO_DATE, TO_TIMESTAMP, or FROM_TZ](https://github.com/libredb/libredb-studio/pull/1818)<br>[Read DATETIME and SMALLDATETIME as the engine's own text, and export them with a T](https://github.com/libredb/libredb-studio/pull/1639)<br>[Write a zoned Oracle timestamp that arrived over HTTP as its UTC instant](https://github.com/libredb/libredb-studio/pull/1500)<br>[A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308)<br>[Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
 | [anishmehta24/OSS-Contributor-engine](https://github.com/anishmehta24/OSS-Contributor-engine) | [Preserve error anchors under tight budgets, match multi-dot paths, and fix test runner classifications](https://github.com/anishmehta24/OSS-Contributor-engine/pull/10)<br>[Reset new files across retries, roll back failed multi-edits, and refuse .git paths](https://github.com/anishmehta24/OSS-Contributor-engine/pull/8)<br>[Isolate pilot route tests from local .env and remove unused imports](https://github.com/anishmehta24/OSS-Contributor-engine/pull/6)<br>[Show the LLM the relevant parts of large files, not just the head](https://github.com/anishmehta24/OSS-Contributor-engine/pull/4)<br>[Preserve CRLF line endings when applying edits](https://github.com/anishmehta24/OSS-Contributor-engine/pull/3) |
 
-**🔄 In review** — 10 open
+**🔄 In review** — 8 open
 
 | Project | Pull requests |
 | :-- | :-- |
@@ -61,9 +60,8 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [swiftlang/swift](https://github.com/swiftlang/swift)<br><sub>★ 70.6k</sub> | [Document source.request.relatedidents](https://github.com/swiftlang/swift/pull/92586) |
 | [apache/airflow](https://github.com/apache/airflow)<br><sub>★ 47.5k</sub> | [Fix Dag import error for repeated task_group calls in a TaskGroup](https://github.com/apache/airflow/pull/76085) |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26.2k</sub> | [Refactor URI to URL in screenshot tools and web comments](https://github.com/zulip/zulip/pull/40690)<br>[Rename ROOT_DOMAIN_URI to ROOT_DOMAIN_URL](https://github.com/zulip/zulip/pull/40517)<br>[Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework)<br><sub>★ 14.7k</sub> | [Send empty text for GitHubCopilotAgent tool results without text](https://github.com/microsoft/agent-framework/pull/10272)<br>[Report repeated native exit codes in persistent PowerShell sessions](https://github.com/microsoft/agent-framework/pull/9658) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.7k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
-| [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 410</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
+| [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 409</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
