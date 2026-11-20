@@ -58,10 +58,10 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | :-- | :-- |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br><sub>★ 91.2k</sub> | [Allow milestones to be declared without a duration](https://github.com/mermaid-js/mermaid/pull/8291) |
 | [swiftlang/swift](https://github.com/swiftlang/swift)<br><sub>★ 70.6k</sub> | [Document source.request.relatedidents](https://github.com/swiftlang/swift/pull/92586) |
-| [apache/airflow](https://github.com/apache/airflow)<br><sub>★ 47.5k</sub> | [Fix Dag import error for repeated task_group calls in a TaskGroup](https://github.com/apache/airflow/pull/76085) |
+| [apache/airflow](https://github.com/apache/airflow)<br><sub>★ 47.6k</sub> | [Fix Dag import error for repeated task_group calls in a TaskGroup](https://github.com/apache/airflow/pull/76085) |
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26.3k</sub> | [Refactor URI to URL in screenshot tools and web comments](https://github.com/zulip/zulip/pull/40690)<br>[Rename ROOT_DOMAIN_URI to ROOT_DOMAIN_URL](https://github.com/zulip/zulip/pull/40517)<br>[Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.7k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
-| [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 409</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
+| [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 408</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
