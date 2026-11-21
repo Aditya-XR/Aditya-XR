@@ -52,7 +52,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [libredb/libredb-studio](https://github.com/libredb/libredb-studio)<br><sub>★ 1.4k</sub> | [Recognise count-less FETCH, FETCH ... WITH TIES, and preceding OFFSET in the query limiter](https://github.com/libredb/libredb-studio/pull/1995)<br>[Bind an Oracle DATE and TIMESTAMP edit through TO_DATE, TO_TIMESTAMP, or FROM_TZ](https://github.com/libredb/libredb-studio/pull/1818)<br>[Read DATETIME and SMALLDATETIME as the engine's own text, and export them with a T](https://github.com/libredb/libredb-studio/pull/1639)<br>[Write a zoned Oracle timestamp that arrived over HTTP as its UTC instant](https://github.com/libredb/libredb-studio/pull/1500)<br>[A disconnect during an in-flight connect closes that attempt's driver](https://github.com/libredb/libredb-studio/pull/1308)<br>[Read DATE and TIMESTAMP as the stored wall clock, not a local Date](https://github.com/libredb/libredb-studio/pull/1225)<br>[Refuse commands that move the shared connection](https://github.com/libredb/libredb-studio/pull/1121)<br>[Anchor schema diff migration copy button outside scroll area](https://github.com/libredb/libredb-studio/pull/1082) |
 | [anishmehta24/OSS-Contributor-engine](https://github.com/anishmehta24/OSS-Contributor-engine) | [Preserve error anchors under tight budgets, match multi-dot paths, and fix test runner classifications](https://github.com/anishmehta24/OSS-Contributor-engine/pull/10)<br>[Reset new files across retries, roll back failed multi-edits, and refuse .git paths](https://github.com/anishmehta24/OSS-Contributor-engine/pull/8)<br>[Isolate pilot route tests from local .env and remove unused imports](https://github.com/anishmehta24/OSS-Contributor-engine/pull/6)<br>[Show the LLM the relevant parts of large files, not just the head](https://github.com/anishmehta24/OSS-Contributor-engine/pull/4)<br>[Preserve CRLF line endings when applying edits](https://github.com/anishmehta24/OSS-Contributor-engine/pull/3) |
 
-**🔄 In review** — 8 open
+**🔄 In review** — 9 open
 
 | Project | Pull requests |
 | :-- | :-- |
@@ -62,6 +62,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26.3k</sub> | [Refactor URI to URL in screenshot tools and web comments](https://github.com/zulip/zulip/pull/40690)<br>[Rename ROOT_DOMAIN_URI to ROOT_DOMAIN_URL](https://github.com/zulip/zulip/pull/40517)<br>[Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.7k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
 | [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 408</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
+| [tabloy/keygate](https://github.com/tabloy/keygate)<br><sub>★ 270</sub> | [Count floating seats in use on the license card](https://github.com/tabloy/keygate/pull/221) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
