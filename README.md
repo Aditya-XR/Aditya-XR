@@ -62,7 +62,7 @@ I look for real bugs in projects I use, reduce them to a minimal reproduction, a
 | [zulip/zulip](https://github.com/zulip/zulip)<br><sub>★ 26.3k</sub> | [Refactor URI to URL in screenshot tools and web comments](https://github.com/zulip/zulip/pull/40690)<br>[Rename ROOT_DOMAIN_URI to ROOT_DOMAIN_URL](https://github.com/zulip/zulip/pull/40517)<br>[Replace deprecated URI with URL in avatar/logo settings](https://github.com/zulip/zulip/pull/40191) |
 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest)<br><sub>★ 14.7k</sub> | [Fix `WarningsRecorder.pop()` returning the last match for unrelated categories](https://github.com/pytest-dev/pytest/pull/15098) |
 | [zulip/python-zulip-api](https://github.com/zulip/python-zulip-api)<br><sub>★ 408</sub> | [Add auto_retry_rate_limits option to handle 429 errors](https://github.com/zulip/python-zulip-api/pull/946) |
-| [tabloy/keygate](https://github.com/tabloy/keygate)<br><sub>★ 270</sub> | [Count floating seats in use on the license card](https://github.com/tabloy/keygate/pull/221) |
+| [tabloy/keygate](https://github.com/tabloy/keygate)<br><sub>★ 274</sub> | [Count floating seats in use on the license card](https://github.com/tabloy/keygate/pull/221) |
 
 <sub>Both tables refresh daily from the GitHub API.</sub>
 <!-- OSS:END -->
